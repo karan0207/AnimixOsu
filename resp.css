@@ -1,0 +1,319 @@
+/* media query */
+@media(max-width: 991px) {
+    html{
+        font-size: 55%;
+        
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    section{
+        padding:2rem;
+    }
+}
+
+@media(max-width: 885px){
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--black);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        display:block;
+        padding:1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: var(--red);
+    }
+    .home .box .content h3{
+        font-size:5rem;
+    } 
+}
+/* 450px */
+@media(max-width: 882px){
+    html{
+        font-size: 44%;
+     }
+     .header .icons i {
+        cursor: pointer;
+        text-align: center;
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        margin-left: 0.5rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        color: white;
+        background-color: red;
+        
+    }
+
+       .home .first {
+       background: url(dt2.jpg);
+        background-size: cover;
+    }
+    .home .second {
+        background: url(narutomob.jpg);
+        background-size: 100% 100%;
+    }
+    .home .fourth {
+        background: url(goo.jpg);
+        background-size: 100% 100%;
+    }
+   .home .box .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* overflow-x: none; */
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+        /* line-break: none; */
+    }
+    .home {
+        max-height: 100vh;
+        margin-bottom: 10%;
+    }
+    /* ......................... */
+   .action {
+    display: none;
+   }
+    .reco .swiper-slide {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .reco .box {
+        width: 100%;
+    }
+    .reco .content {
+    width: 100%;
+    height: auto;
+    }
+    .reco .swiper-wrapper {
+    transform: translate3d(-100vw, 0px, 0px)  
+}
+
+     /* .action .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } */
+    .reco  .box3 {
+        background: url(exorcist.webp);
+        background-size: 100% 100%;
+        background-position: center;
+      }
+      .reco  .boxk {
+        
+        background: url(demons.jpg) no-repeat;
+        background-size: 130% 100%;
+        background-position: center;
+  }
+  .content .fa-clover {
+    color: green;
+  font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 25%;
+  }
+ 
+  .footer-body {
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .linksso {
+    display: none;
+}
+
+.footer-body h3 {
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.footer-bottom {
+    box-sizing: border-box;
+}
+ .headslide {
+    width: 100%;
+    height: 5vh;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    font-family: 'Alkatra', cursive;
+  } 
+  .slidermid {
+    height: 100vh;
+  }
+  .slidermid .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 115vh;
+  }
+  .slidermid .imgmid {
+    width: 100%;
+    /* padding: 0 2px; */
+    /* border: none; */
+    height: 30vh;
+
+    box-sizing: border-box;
+  }
+  .slidermid .imgmid img {
+    width: 100%;
+    height:100%;
+  }
+
+ 
+   .slidermid .content2  {
+width: 100%;
+/* min-height: 68vh; */
+height: 70vh;
+/* min-height: max-content; */
+padding: 30px;
+padding-bottom: 40px;
+/* margin-bottom: 10px; */
+flex-wrap: wrap;
+font-size: 20px;
+border: none;
+font-family: 'Alkatra', cursive;
+
+  } 
+  /* .slidermid .box {
+     min-height: max-content; 
+     box-sizing: border-box; 
+     overflow: none; 
+    margin-bottom: 10%; 
+   }   */
+   .slidermid .content2 a {
+    position: absolute;
+    right: 0px;
+   top: 0%;
+   height: 30px;
+   font-size: 18px; 
+  } 
+.home .swiper-slide {
+   
+    height: 100vh;
+}
+
+.home .swiper-slide .box .content {
+  padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.home .swiper-slide .box .content h3 {
+font-size: 30px;
+}
+.home .swiper-slide .box .content  p {
+font-size: 20px;
+}
+.home .swiper-slide .frstbox {
+  background:url(deathnotemob.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+ 
+  
+}
+.home .swiper-slide .box .btn {
+    /* height: 30px;
+    width: 130px; */
+    font-size: 22px;
+    margin-top: 20px;
+}
+.nexticon i {
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    right: 2%;
+    bottom: 42%;
+  }
+   .previcon i {
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    left: 2%;
+    bottom: 42%;
+  }
+  .footer-body .footer-logo {
+    height: 8vh;
+  }
+/* .home .swiper-slide .frstbox .content h3 {
+    color: white;
+    font-weight: 900;
+}
+.home .swiper-slide .frstbox .content p {
+    color: black;
+    font-weight: 900;
+} */
+    }
+    @media screen and (max-width:992px) {
+        .action{
+            display: none;
+        }
+    }
+    @media screen and (max-width:720px) {
+        .linksso {
+            display: none;
+        }
+        .footer-body {
+            flex-wrap: wrap;
+            width: 100%;
+            box-sizing: border-box;
+          }
+          .footer-body h3 {
+            margin-bottom: 10px;
+            margin-top: -5px;
+        }
+        .logo2 {
+            width: 80%;
+        }
+    }
+
+    @media screen and (min-width:450px) and (max-width:884px){
+        .header .navbar a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            margin-left: 2rem;
+        }
+        .header .icons i {
+            cursor: pointer;
+            text-align: center;
+            height: 5.5rem;
+            width: 5.5rem;
+            line-height: 5.5rem;
+            margin-left: 0.5rem;
+            font-size: 2rem;
+            border-radius: 50%;
+            color: white;
+            background-color: red;
+            
+        }
+        .header .logo {
+            font-size: 4.8rem;
+            line-height: 4.8rem;
+            color: white;
+            text-decoration: none;
+            padding: 0 5px;
+        }
+    }
+    
