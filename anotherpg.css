@@ -363,11 +363,16 @@ position: relative;
     display: flex;
     flex-direction: column;
    }
-   .toparc .container1 .arcimg {
+    .toparc .container1 .arcimg {
     width: 100%;
+    height: 25vh;
    }
    .toparc .container1 .arccontent {
     width: 100%;
+   }
+  .toparc .container1 .arccontent h2 {
+  
+    padding: 3px 20px;
    }
    .minwin {
     width: 100%;
