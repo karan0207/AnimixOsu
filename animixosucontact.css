@@ -55,7 +55,7 @@
   top: 15%;
   
         }
-        .box .submit {
+      .box .submit {
             display: inline-block;
             width: max-content;
             font-size: 17px;
@@ -63,11 +63,11 @@
             left: 160px;
             padding: 3px 5px;
             border-radius: 4px;
-            cursor:pointer;
+            cursor: pointer;
         }
-.box .submit:hover {
-	color:grey;
-}
+        .box .submit:hover {
+            background-color: rgb(186, 182, 182);
+        }
  
  .logo {
     font-size: 2rem;
