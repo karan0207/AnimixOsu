@@ -282,7 +282,7 @@ position: relative;
 /* ......................... */
 
 .contain .img32 {
-  background: url(/images/deathnote.jpg);
+  background: url(deathnote.jpg);
   background-size: cover;
   background-position: center;
 }
