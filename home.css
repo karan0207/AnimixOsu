@@ -337,7 +337,11 @@ padding: 1rem 0;
     width: 154px;
     margin-left: 20%;
 }
-
+.action .swiper-slide .content h3 {
+    color: black;
+    font-size: 20px;
+    padding: 4px 0;
+}
 /* ............Action Section ends here........................ */
 
 /* .................Section-3 - slidermidnew - Recommendedsec................... */
